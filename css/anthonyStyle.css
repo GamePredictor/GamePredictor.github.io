@@ -1,0 +1,458 @@
+/*Animation specifics for Cavs Image*/
+body{
+	text-align: center;
+	-webkit-transition: all 3s ease-in-out;
+	-moz-transition: all 3s ease-in-out;
+	-o-transition: all 3s ease-in-out;
+	-ms-transition: all 3s ease-in-out;
+	transition: all 3s ease-in-out;
+}
+.cavs{
+  margin: auto;	
+  transition: all linear 1.5s;
+  background-image: url("../Images/cavs.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/*Animation specifics for Warriors image*/
+.warriors{
+  display: block;
+    margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/warriors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.wizards{
+  margin: auto;	
+  transition: all linear 1.5s;
+  background-image: url("../Images/wizards.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.celtics{
+  margin: auto;	
+  transition: all linear 1.5s;
+  background-image: url("../Images/celtics.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.knicks{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/knicks.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.raptors{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/raptors.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nets{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/nets.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.sixers{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/76ers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.bulls{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/bulls.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.pistons{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/pistons.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.pacers{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/pacers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.bucks{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/bucks.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hawks{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/hawks.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.hornets{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/hornets.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.heat{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/heat.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.magic{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/magic.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nuggets{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/nuggets.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.timberwolves{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/timberwolves.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.thunder{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/thunder.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.trailblazers{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/trailblazers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.jazz{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/jazz.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.clippers{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/clippers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.lakers{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/lakers.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.suns{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/suns.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.kings{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/kings.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.mavs{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/mavs.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.rockets{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/rockets.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.grizzlies{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/grizzlies.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.pelicans{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/pelicans.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.spurs{
+  margin: auto;
+  transition: all linear 1.5s;
+  background-image: url("../Images/spurs.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 950px;
+  height: 800px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/*Hide Animation*/
+.ng-hide {
+  height: 0;
+  width: 0;
+  background-color: transparent;
+  top:-200px;
+  left: 200px;
+}
+h1{
+	font-family: 'Anton', sans-serif;
+	color: orange;
+}
+.dropbtn {
+    background-color: orange;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-original {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-original {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-original a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-original a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown-original:hover .dropdown-content-original {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-original:hover .dropbtn {
+    background-color: #3e8e41;
+}

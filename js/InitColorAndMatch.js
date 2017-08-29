@@ -7,7 +7,6 @@ function changeColor(myFavTeam){
 		for (var i = 0; i < x.length; i++) {
 			x[i].style.backgroundColor = "blue";
 		}	
-		document.getElementById("footerColor").style.backgroundColor="blue";
 		var y = document.getElementsByClassName("titleText");
 		for (var j = 0; j < y.length; j++) {
 			y[j].style.color = "blue";
@@ -23,7 +22,6 @@ function changeColor(myFavTeam){
 		for (var i = 0; i < x.length; i++) {
 			x[i].style.backgroundColor = "#6495ED";
 		}	
-		document.getElementById("footerColor").style.backgroundColor="#6495ED";
 		var y = document.getElementsByClassName("titleText");
 		for (var j = 0; j < y.length; j++) {
 			y[j].style.color = "#6495ED";
@@ -39,7 +37,6 @@ function changeColor(myFavTeam){
 		for (var i = 0; i < x.length; i++) {
 			x[i].style.backgroundColor = "purple";
 		}
-		document.getElementById("footerColor").style.backgroundColor="purple";
 		var y = document.getElementsByClassName("titleText");
 		for (var j = 0; j < y.length; j++) {
 			y[j].style.color = "purple";
@@ -55,7 +52,6 @@ function changeColor(myFavTeam){
 		for (var i = 0; i < x.length; i++) {
 			x[i].style.backgroundColor = "black";
 		}
-		document.getElementById("footerColor").style.backgroundColor="black";
 		var y = document.getElementsByClassName("titleText");
 		for (var j = 0; j < y.length; j++) {
 			y[j].style.color = "black";
@@ -71,7 +67,6 @@ function changeColor(myFavTeam){
 		for (var i = 0; i < x.length; i++) {
 			x[i].style.backgroundColor = "#000080";
 		}
-		document.getElementById("footerColor").style.backgroundColor="#000080";
 		var y = document.getElementsByClassName("titleText");
 		for (var j = 0; j < y.length; j++) {
 			y[j].style.color = "#000080";
@@ -87,7 +82,6 @@ function changeColor(myFavTeam){
 		for (var i = 0; i < x.length; i++) {
 			x[i].style.backgroundColor = "green";
 		}
-		document.getElementById("footerColor").style.backgroundColor="green";
 		var y = document.getElementsByClassName("titleText");
 		for (var j = 0; j < y.length; j++) {
 			y[j].style.color = "green";

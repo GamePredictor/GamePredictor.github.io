@@ -311,7 +311,7 @@ body{
 .suns{
   margin: auto;
   transition: all linear 1.5s;
-  background-image: url("../Images/suns.jpg");
+  background-image: url("../Images/suns.JPG");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 950px;

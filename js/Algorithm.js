@@ -93,18 +93,22 @@ function displayAlgorithm() {
             var rowCells = allRows[singleRow].split(',');
             for (var rowCell = 0; rowCell < rowCells.length; rowCell++) {
                 if (singleRow == 1 && rowCell != 0) {
+					var ranking = parseInt(rowCells[rowCell]);
                     if (rowCell % 2 == 0) {
-                        sum2 = (1 - ((rowCells[rowCell] * rowCells[rowCell]) / (100))) * sum2;
+					sum2 = (1.0 - ((2*ranking)/100)) * sum2;
                     } else {
-                        sum = (1 - ((rowCells[rowCell] * rowCells[rowCell]) / (100))) * sum;
+                        sum = (1.0 - ((2*ranking)/100)) * sum;
                     }
                 }
             }
 			//If sum is greater than sum2, then say that team 1 will be the winner and vice versa.
+			var percentWin = 0;
             if (sum > sum2) {
-                document.getElementById("algorithmDisplayed").innerHTML = ("And the winner is...." + teamName1);
+				percentWin = (parseInt(sum-sum2) + 50);
+                document.getElementById("algorithmDisplayed").innerHTML = ("The " + teamName1 + " have " + percentWin + "% chance of winning");
             } else {
-                document.getElementById("algorithmDisplayed").innerHTML = ("And the winner is...." + teamName2);
+				percentWin = (parseInt(sum2-sum) + 50);
+                document.getElementById("algorithmDisplayed").innerHTML = ("The " + teamName2 + " have " + percentWin + "% chance of winning");
             }
         }
 

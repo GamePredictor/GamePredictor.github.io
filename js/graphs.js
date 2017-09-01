@@ -9,6 +9,7 @@ var cat3String;
 var cat4String;
 var color1String;
 var color2String;
+var graphTitleText;
 //The function initializeAxisName() initializes the 
 //axis names based on which graph is being displayed.
 //graphNum is a number from 1 to 3, and represents 
@@ -19,16 +20,19 @@ function initializeAxisNames(graphNum) {
         cat2String = "Three Games Ago";
         cat3String = "Two Games Ago";
         cat4String = "Last Game";
+		graphTitleText = "Points Scored in Last Four Games"
     } else if (graphNum == 2) {
         cat1String = "PPG";
         cat2String = "OPPG";
         cat3String = "RPG";
         cat4String = "APG";
+		graphTitleText = "Per Game Statistics"
     } else if (graphNum == 3) {
         cat1String = "Field Goal Percentage (FG PCT)";
         cat2String = "OPP FG PCT";
         cat3String = "3PT PCT";
         cat4String = "OPP 3PT PCT";
+		graphTitleText = "Field Goal Percentages"
     }
 }
 //The function displayGraphOfTeams() has the d3 code
@@ -95,7 +99,7 @@ function displayGraphOfTeams(num, num2) {
             bottom: 45,
             left: 100
         };
-
+		document.getElementById("graphic" + num2).innerHTML = "";
         var width = 960 - margin.left - margin.right,
             height = 500 - margin.top - margin.bottom;
         var svg = d3.select("#graphic" + num2).append("svg")
@@ -184,7 +188,14 @@ function displayGraphOfTeams(num, num2) {
             })
             .call(wrap2, 90, -5);
 
-
+		svg.append("text")
+			.attr("x", (width / 2))             
+			.attr("y", 0 - (margin.top / 2))
+			.attr("text-anchor", "middle")  
+			.style("font-size", "20px") 
+			.style("text-decoration", "underline")  
+			.text(graphTitleText)
+	
         var bars = svg.selectAll(".bar")
             .data(data)
             .enter().append("g")

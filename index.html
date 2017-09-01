@@ -207,31 +207,34 @@
             <br><br><br><br><br><br><br><br><br>
         </div>
         <div class="col s12 m4" id="chart_div"></div>
-
+		
+		<div id="before1"></div><br><br><br><br>
         <!--The following div, graphic1, is where the first chart is displayed. This chart displays the points scored in the last four games of the two teams-->
         <div id="graphic1"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
         <!--When this button is clicked, it calls the function initializeAxisNames(), which determines what the axis names should be based on which team match-up was chosen.
 		<!--In addition, it calls the function displayGraphOfTeams(), which displays the corresponding grouped bar chart for the match-up. Finally, it calls
 		<!--displayExplanation(), which displays the corresponding explanation for why the statistics in the graph are important.-->
-        <button class="dropbtn btn2" type="button" onclick="initializeAxisNames(1), displayGraphOfTeams(num, 1), displayExplanation(1)">Compare Points!</button>
+        <button class="dropbtn btn2" type="button" onclick="initializeAxisNames(1), displayGraphOfTeams(num, 1), displayExplanation(1)"><a href="#before1" style="color:white">Compare Points!</a></button>
         <a class="dropbtn btn2" type="button" href="#graphic2">Move on to next graph!</a>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+		<div id="before2"></div><br><br><br><br>
         <!--The following div, graphic2, is where the second chart is displayed. This chart displays PPG, OPPG, RPG, and APG of the two teams. -->
         <div id="graphic2"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
         <!--When this button is clicked, it calls the function initializeAxisNames(), which determines what the axis names should be based on which team match-up was chosen.
 		<!--In addition, it calls the function displayGraphOfTeams(), which displays the corresponding grouped bar chart for the match-up. Finally, it calls
 		<!--displayExplanation(), which displays the corresponding explanation for why the statistics in the graph are important.-->
-        <button class="dropbtn btn2" type="button" onclick="initializeAxisNames(2), displayGraphOfTeams(num, 2), displayExplanation(2)">Compare PPG, APG, etc!</button>
+        <button class="dropbtn btn2" type="button" onclick="initializeAxisNames(2), displayGraphOfTeams(num, 2), displayExplanation(2)"><a href="#before2" style="color:white">Compare PPG, APG, etc!</a></button>
         <a class="dropbtn btn2" type="button" href="#graphic3">Move on to next graph!</a>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
+		<div id="before3"></div><br><br><br><br>
         <!--The following div, graphic2, is where the third chart is displayed. This chart displays FG PCT, OPP FG PCT, 3PT PCT, and OPP 3 PT PCT-->
         <div id="graphic3"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
         <!--When this button is clicked, it calls the function initializeAxisNames(), which determines what the axis names should be based on which team match-up was chosen.
 		<!--In addition, it calls the function displayGraphOfTeams(), which displays the corresponding grouped bar chart for the match-up. Finally, it calls
 		<!--displayExplanation(), which displays the corresponding explanation for why the statistics in the graph are important.-->
-        <button class="dropbtn btn2" type="button" onclick="initializeAxisNames(3), displayGraphOfTeams(num, 3), displayExplanation(3)">Compare field goal percentages!</button>
+        <button class="dropbtn btn2" type="button" onclick="initializeAxisNames(3), displayGraphOfTeams(num, 3), displayExplanation(3)"><a href="#before3" style="color:white">Compare field goal percentages!</a></button>
         <a class="dropbtn btn2" type="button" href="#algorithmDiv">Display Winner!</a>
         <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
@@ -244,7 +247,7 @@
                 </div>
                 <button id="button" class="dropbtn btn2" ng-click="mySwitch=true" onclick="displayAlgorithm()">Click Me to display what the algorithm determined!</button>
                 <div ng-show="mySwitch">
-                    <p id="algorithmDisplayed"></p>
+                    <h4 id="algorithmDisplayed"></h4>
                 </div>
         </div>
         </p>

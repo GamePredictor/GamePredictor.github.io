@@ -108,7 +108,7 @@ function displayAlgorithm() {
                 document.getElementById("algorithmDisplayed").innerHTML = ("The " + teamName1 + " have " + percentWin + "% chance of winning");
             } else {
 				percentWin = (parseInt(sum2-sum) + 50);
-                document.getElementById("algorithmDisplayed").innerHTML = ("The " + teamName2 + " have " + percentWin + "% chance of winning");
+                document.getElementById("algorithmDisplayed").innerHTML = ("The " + teamName2 + " have a " + percentWin + "% chance of winning");
             }
         }
 

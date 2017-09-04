@@ -71,65 +71,65 @@
     <ul class="collection with-header">
         <li class="collection-header">
             <div>
-                <h4 class="titleText">Pick your Favorite Team</h4>
+                <h4 class="titleText">Pick your Favorite Team to Update Page Layout</h4>
             </div>
         </li>
 		<!--Atlantic division teams. When a team is clicked, a variable corresponding with the team is set to true, which signals
 		<!--the corresponding function to change the colors to the team's colors and display the image of the team's logo-->
         <a href="#!" class="collection-item active activeText" ng-click="atlanticTeams=!atlanticTeams">Atlantic Division</a>
         <div class="collection" ng-show="atlanticTeams">
-            <a onclick="changeColor('celtics')" ng-hide="myFavCeltics" ng-click="myFavCeltics=true;" class="collection-item">Celtics</a>
-            <a onclick="changeColor('nets')" ng-hide="myFavNets" ng-click="myFavNets=true;" class="collection-item" background-color="green">Nets</a>
-            <a onclick="changeColor('knicks')" ng-hide="myFavKnicks" ng-click="myFavKnicks=true;" class="collection-item">Knicks</a>
-            <a onclick="changeColor('sixers')" ng-hide="myFavSixers" ng-click="myFavSixers=true;" class="collection-item">76ers</a>
-            <a onclick="changeColor('raptors')" ng-hide="myFavRaptors" ng-click="myFavRaptors=true;" class="collection-item">Raptors</a>
+            <a href="#logoDiv" onclick="changeColor('celtics')" ng-hide="myFavCeltics" ng-click="myFavCeltics=true;" class="collection-item">Celtics</a>
+            <a href="#logoDiv" onclick="changeColor('nets')" ng-hide="myFavNets" ng-click="myFavNets=true;" class="collection-item" background-color="green">Nets</a>
+            <a href="#logoDiv" onclick="changeColor('knicks')" ng-hide="myFavKnicks" ng-click="myFavKnicks=true;" class="collection-item">Knicks</a>
+            <a href="#logoDiv" onclick="changeColor('sixers')" ng-hide="myFavSixers" ng-click="myFavSixers=true;" class="collection-item">76ers</a>
+            <a href="#logoDiv" onclick="changeColor('raptors')" ng-hide="myFavRaptors" ng-click="myFavRaptors=true;" class="collection-item">Raptors</a>
         </div>
 		<!--Central division teams-->
         <a href="#!" class="collection-item active activeText" ng-click="centralTeams=!centralTeams">Central Division</a>
         <div class="collection" ng-show="centralTeams">
-            <a onclick="changeColor('bulls')" ng-hide="myFavBulls" ng-click="myFavBulls=true;" class="collection-item">Bulls</a>
-            <a onclick="changeColor('cavs')" ng-hide="myFavCavs" ng-click="myFavCavs=true;" class="collection-item">Cavs</a>
-            <a onclick="changeColor('pistons')" ng-hide="myFavPistons" ng-click="myFavPistons=true;" class="collection-item">Pistons</a>
-            <a onclick="changeColor('pacers')" ng-hide="myFavPacers" ng-click="myFavPacers=true;" class="collection-item">Pacers</a>
-            <a onclick="changeColor('bucks')" ng-hide="myFavBucks" ng-click="myFavBucks=true;" class="collection-item">Bucks</a>
+            <a href="#logoDiv" onclick="changeColor('bulls')" ng-hide="myFavBulls" ng-click="myFavBulls=true;" class="collection-item">Bulls</a>
+            <a href="#logoDiv" onclick="changeColor('cavs')" ng-hide="myFavCavs" ng-click="myFavCavs=true;" class="collection-item">Cavs</a>
+            <a href="#logoDiv" onclick="changeColor('pistons')" ng-hide="myFavPistons" ng-click="myFavPistons=true;" class="collection-item">Pistons</a>
+            <a href="#logoDiv" onclick="changeColor('pacers')" ng-hide="myFavPacers" ng-click="myFavPacers=true;" class="collection-item">Pacers</a>
+            <a href="#logoDiv" onclick="changeColor('bucks')" ng-hide="myFavBucks" ng-click="myFavBucks=true;" class="collection-item">Bucks</a>
         </div>
 		<!--Southeast division teams-->
         <a href="#!" class="collection-item active activeText" ng-click="southeastTeams=!southeastTeams">Southeast Division</a>
         <div class="collection" ng-show="southeastTeams">
-            <a onclick="changeColor('hawks')" ng-hide="myFavHawks" ng-click="myFavHawks=true;" class="collection-item">Hawks</a>
-            <a onclick="changeColor('hornets')" ng-hide="myFavHornets" ng-click="myFavHornets=true;" class="collection-item">Hornets</a>
-            <a onclick="changeColor('heat')" ng-hide="myFavHeat" ng-click="myFavHeat=true;" class="collection-item">Heat</a>
-            <a onclick="changeColor('magic')" ng-hide="myFavMagic" ng-click="myFavMagic=true;" class="collection-item">Magic</a>
-            <a onclick="changeColor('wizards')" ng-hide="myFavWizards" ng-click="myFavWizards=true;" class="collection-item">Wizards</a>
+            <a href="#logoDiv" onclick="changeColor('hawks')" ng-hide="myFavHawks" ng-click="myFavHawks=true;" class="collection-item">Hawks</a>
+            <a href="#logoDiv" onclick="changeColor('hornets')" ng-hide="myFavHornets" ng-click="myFavHornets=true;" class="collection-item">Hornets</a>
+            <a href="#logoDiv" onclick="changeColor('heat')" ng-hide="myFavHeat" ng-click="myFavHeat=true;" class="collection-item">Heat</a>
+            <a href="#logoDiv" onclick="changeColor('magic')" ng-hide="myFavMagic" ng-click="myFavMagic=true;" class="collection-item">Magic</a>
+            <a href="#logoDiv" onclick="changeColor('wizards')" ng-hide="myFavWizards" ng-click="myFavWizards=true;" class="collection-item">Wizards</a>
         </div>
 		<!--Northwest division teams-->
         <a href="#!" class="collection-item active activeText" ng-click="northwestTeams=!northwestTeams">Northwest Division</a>
         <div class="collection" ng-show="northwestTeams">
-            <a onclick="changeColor('nuggets')" ng-hide="myFavNuggets" ng-click="myFavNuggets=true;" class="collection-item">Nuggets</a>
-            <a onclick="changeColor('timberwolves')" ng-hide="myFavTimberwolves" ng-click="myFavTimberwolves=true;" class="collection-item">Timberwolves</a>
-            <a onclick="changeColor('thunder')" ng-hide="myFavThunder" ng-click="myFavThunder=true;" class="collection-item">Thunder</a>
-            <a onclick="changeColor('trailblazers')" ng-hide="myFavTrailblazers" ng-click="myFavTrailblazers=true;" class="collection-item">Trailblazers</a>
-            <a onclick="changeColor('jazz')" ng-hide="myFavJazz" ng-click="myFavJazz=true;" class="collection-item">Jazz</a>
+            <a href="#logoDiv" onclick="changeColor('nuggets')" ng-hide="myFavNuggets" ng-click="myFavNuggets=true;" class="collection-item">Nuggets</a>
+            <a href="#logoDiv" onclick="changeColor('timberwolves')" ng-hide="myFavTimberwolves" ng-click="myFavTimberwolves=true;" class="collection-item">Timberwolves</a>
+            <a href="#logoDiv" onclick="changeColor('thunder')" ng-hide="myFavThunder" ng-click="myFavThunder=true;" class="collection-item">Thunder</a>
+            <a href="#logoDiv" onclick="changeColor('trailblazers')" ng-hide="myFavTrailblazers" ng-click="myFavTrailblazers=true;" class="collection-item">Trailblazers</a>
+            <a href="#logoDiv" onclick="changeColor('jazz')" ng-hide="myFavJazz" ng-click="myFavJazz=true;" class="collection-item">Jazz</a>
         </div>
 		<!--Pacific division teams-->
         <a href="#!" class="collection-item active activeText" ng-click="pacificTeams=!pacificTeams">Pacific Division</a>
         <div class="collection" ng-show="pacificTeams">
-            <a onclick="changeColor('warriors')" ng-hide="myFavWarriors" ng-click="myFavWarriors=true;" class="collection-item">Warriors</a>
-            <a onclick="changeColor('clippers')" ng-hide="myFavClippers" ng-click="myFavClippers=true;" class="collection-item">Clippers</a>
-            <a onclick="changeColor('lakers')" ng-hide="myFavLakers" ng-click="myFavLakers=true;" class="collection-item">Lakers</a>
-            <a onclick="changeColor('suns')" ng-hide="myFavSuns" ng-click="myFavSuns=true;" class="collection-item">Suns</a>
-            <a onclick="changeColor('kings')" ng-hide="myFavKings" ng-click="myFavKings=true;" class="collection-item">Kings</a>
+            <a href="#logoDiv" onclick="changeColor('warriors')" ng-hide="myFavWarriors" ng-click="myFavWarriors=true;" class="collection-item">Warriors</a>
+            <a href="#logoDiv" onclick="changeColor('clippers')" ng-hide="myFavClippers" ng-click="myFavClippers=true;" class="collection-item">Clippers</a>
+            <a href="#logoDiv" onclick="changeColor('lakers')" ng-hide="myFavLakers" ng-click="myFavLakers=true;" class="collection-item">Lakers</a>
+            <a href="#logoDiv" onclick="changeColor('suns')" ng-hide="myFavSuns" ng-click="myFavSuns=true;" class="collection-item">Suns</a>
+            <a href="#logoDiv" onclick="changeColor('kings')" ng-hide="myFavKings" ng-click="myFavKings=true;" class="collection-item">Kings</a>
         </div>
 		<!--Southwest division teams-->
         <a href="#!" class="collection-item active activeText" ng-click="southwestTeams=!southwestTeams">Southwest Division</a>
         <div class="collection" ng-show="southwestTeams">
-            <a onclick="changeColor('mavs')" ng-hide="myFavMavs" ng-click="myFavMavs=true;" class="collection-item">Mavs</a>
-            <a onclick="changeColor('rockets')" ng-hide="myFavRockets" ng-click="myFavRockets=true;" class="collection-item">Rockets</a>
-            <a onclick="changeColor('grizzlies')" ng-hide="myFavGrizzlies" ng-click="myFavGrizzlies=true;" class="collection-item">Grizzlies</a>
-            <a onclick="changeColor('pelicans')" ng-hide="myFavPelicans" ng-click="myFavGrizzlies=true;" class="collection-item">Pelicans</a>
+            <a href="#logoDiv" onclick="changeColor('mavs')" ng-hide="myFavMavs" ng-click="myFavMavs=true;" class="collection-item">Mavs</a>
+            <a href="#logoDiv" onclick="changeColor('rockets')" ng-hide="myFavRockets" ng-click="myFavRockets=true;" class="collection-item">Rockets</a>
+            <a href="#logoDiv" onclick="changeColor('grizzlies')" ng-hide="myFavGrizzlies" ng-click="myFavGrizzlies=true;" class="collection-item">Grizzlies</a>
+            <a href="#logoDiv" onclick="changeColor('pelicans')" ng-hide="myFavPelicans" ng-click="myFavGrizzlies=true;" class="collection-item">Pelicans</a>
         </div>
         </div>
-
+        <div id="logoDiv"><br><br></div>
         <!--When a favorite team is clicked, the following divs are shown. The css for showing these images slowly with animation-->
         <!--from angular js is found in anthonyStyle.css-->
         <div id="favTeamImage">
@@ -239,7 +239,7 @@
                 <div id="algorithmDiv">
                     <br><br><br><br><br><br><br><br><br><br><br><br>
                 </div>
-                <button id="button" class="dropbtn btn2" ng-click="mySwitch=true" onclick="displayAlgorithm()">Click Me to display what the algorithm determined!</button>
+                <button id="button" class="dropbtn btn2" ng-click="mySwitch=true" onclick="displayAlgorithm(), displayExplanation(4)">Click Me to display what the algorithm determined!</button>
                 <div ng-show="mySwitch">
                     <h4 id="algorithmDisplayed"></h4>
                 </div>
